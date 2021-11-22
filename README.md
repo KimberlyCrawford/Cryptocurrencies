@@ -1,18 +1,28 @@
 # Cryptocurrencies
 
 ## Overview
+Crypotocurrencies Data Analysis Using Unsupervised Machine Learning Techniques  
 
 ### Purpose
-To convince Accountability Accounting to invest in this cutting-edge financial system. 
+To convince Accountability Accounting to invest in the cutting-edge financial system of cryptocurrencies. 
 
-- An unsupervised learning model was used because we were looking for any groupings, trends, or other information that could help us pitch cryptocurrencies to Accountability Accounting.
+- An unsupervised learning model was used because we were looking for any groupings, trends, or other information that could help us pitch cryptocurrencies to Accountability Accounting. Unsupervised learning is used when we don't yet know the question we're asking of the data. Is there anything at all the data can tell us?
 
 Built several machine learning models to predict
 
+### Dataset
+
+The [iris dataset](https://archive.ics.uci.edu/ml/datasets/iris) from the University of California, Irvine (UCI) Machine Learning Repository.
+
 ### Technologies Used
 
-- Created and Implemented a machine learning model in Python. 
-- Trained the model ?? Used Scikit-learn, a Python machine learning library, to implement a linear regression model.
+You'll work primarily with the  We'll 
+
+- Created and Implemented a machine learning model in Python primarily using the K-means algorithm, the main unsupervised algorithm that groups similar data into clusters.
+- Speeded up the process using principal component analysis (PCA), which employs many different features.. 
+- Trained the model ?? 
+- Used Scikit-learn, a Python machine learning library, to implement a linear regression model. Used Plotly and hvPlot
+- Used 
 - Created predictions.
 
 The basic pattern for supervised learning used in this linear regression example:
@@ -29,6 +39,8 @@ The basic pattern for supervised learning used in this linear regression example
 Deliverable 1: Preprocessing the Data for PCA (30 points)
 Deliverable 1 Instructions
 Using your knowledge of Pandas, you’ll preprocess the dataset in order to perform PCA in Deliverable 2.
+
+
 
 Deliverable 2: Reducing Data Dimensions Using PCA (20 points)
 Deliverable 2 Instructions

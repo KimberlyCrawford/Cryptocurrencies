@@ -8,52 +8,28 @@ To convince Accountability Accounting to invest in the cutting-edge financial sy
 
 - An unsupervised learning model was used because we were looking for any groupings, trends, or other information that could help us pitch cryptocurrencies to Accountability Accounting. Unsupervised learning is used when we don't yet know the question we're asking of the data. Is there anything at all the data can tell us?
 
-Built several machine learning models to predict
+## Dataset
 
-### Dataset
+[Crypto Dataset](http://localhost:8888/edit/UTBootcamp/Cryptocurrencies/Resources/crypto_data.csv)
 
-The [iris dataset](https://archive.ics.uci.edu/ml/datasets/iris) from the University of California, Irvine (UCI) Machine Learning Repository.
+## Deliverables
 
-### Technologies Used
+Deliverable 1: Preprocessing the Data for PCA 
+Using Pandas, the dataset was preprocessed in order to perform PCA in Deliverable 2.
 
-You'll work primarily with the  We'll 
+Deliverable 2: Reducing Data Dimensions Using PCA 
+Using the Principal Component Analysis (PCA) algorithm, the dimensions of the X DataFrame was reduced to three principal components and placed in a new DataFrame.
 
-- Created and Implemented a machine learning model in Python primarily using the K-means algorithm, the main unsupervised algorithm that groups similar data into clusters.
-- Speeded up the process using principal component analysis (PCA), which employs many different features.. 
-- Trained the model ?? 
-- Used Scikit-learn, a Python machine learning library, to implement a linear regression model. Used Plotly and hvPlot
-- Used 
-- Created predictions.
+Deliverable 3: Clustering Cryptocurrencies Using K-means 
+Using the K-means algorithm, an elbow curve was created using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. The K-means algorithm was run to predict the K clusters for the cryptocurrencies’ data.
 
-The basic pattern for supervised learning used in this linear regression example:
+Deliverable 4: Visualizing Cryptocurrencies Results
+Using scatter plots with Plotly Express and hvplot, the distinct groups that correspond to the three principal components was visualized. A table was created with all the currently tradable cryptocurrencies using the hvplot.table() function.
 
-- Split the data into input (X) and output (y).
-- Create an instance of the model with model = LinearRegression().
-- Train the model with the dataset with model.fit(X,y).
-- Create predictions with y_pred = model.predict(X).
+![3D_scatter_plot.png](https://github.com/KimberlyCrawford/Cryptocurrencies/blob/main/Resources/3D_scatter_plot.png)
 
-### Resources
+![Tradeable.png](https://github.com/KimberlyCrawford/Cryptocurrencies/blob/main/Resources/Tradeable.png)
 
-## Results
+![New_dataframe.png](https://github.com/KimberlyCrawford/Cryptocurrencies/blob/main/Resources/New_dataframe.png)
 
-Deliverable 1: Preprocessing the Data for PCA (30 points)
-Deliverable 1 Instructions
-Using your knowledge of Pandas, you’ll preprocess the dataset in order to perform PCA in Deliverable 2.
-
-
-
-Deliverable 2: Reducing Data Dimensions Using PCA (20 points)
-Deliverable 2 Instructions
-Using your knowledge of how to apply the Principal Component Analysis (PCA) algorithm, you’ll reduce the dimensions of the X DataFrame to three principal components and place these dimensions in a new DataFrame.
-
-Deliverable 3: Clustering Cryptocurrencies Using K-means (30 points)
-Deliverable 3 Instructions
-Using your knowledge of the K-means algorithm, you’ll create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, you’ll run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
-
-Deliverable 4: Visualizing Cryptocurrencies Results (30 points)
-Deliverable 4 Instructions
-Using your knowledge of creating scatter plots with Plotly Express and hvplot, you’ll visualize the distinct groups that correspond to the three principal components you created in Deliverable 2, then you’ll create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
-
-## Summary
-
-In supervised learning, first a model is initiated, or a template for the algorithm is created. Then it will analyze the data and attempt to learn patterns, which is also called fitting and training. After the data has been fit and trained, it will then make predictions.
+![scatter_plot.png](https://github.com/KimberlyCrawford/Cryptocurrencies/blob/main/Resources/scatter_plot.png)
